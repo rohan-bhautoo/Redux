@@ -1,8 +1,7 @@
-function sayHello() {
-    return function () {
-        return "Hello World"
-    }
-}
+let numbers = [1, 2, 3];
 
-let fn = sayHello();
-let message = fn(); 
+numbers.map((number) => number * 2);
+
+setTimeout(() => {
+  console.log("Hello");
+}, 1000);

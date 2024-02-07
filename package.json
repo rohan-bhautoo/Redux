@@ -10,8 +10,12 @@
   "author": "Rohan Bhautoo",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "4.41.6",
-    "webpack-cli": "3.3.11",
-    "webpack-dev-server": "3.10.3"
+    "@webpack-cli/serve": "^2.0.5",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
